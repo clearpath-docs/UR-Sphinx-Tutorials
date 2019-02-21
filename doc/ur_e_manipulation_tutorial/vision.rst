@@ -1,0 +1,1 @@
+ROS_NAMESPACE=bumblebee2 rosrun stereo_image_proc stereo_image_proc

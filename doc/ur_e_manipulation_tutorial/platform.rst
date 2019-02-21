@@ -1,0 +1,7 @@
+catkin_create_pkg husky_ure_tutorial_description husky_ur_gazebo husky_ur_description pointgrey_camera_description
+catkin_make
+source devel/setup.bash
+
+source src/husky_ure_tutorial_files/husky_ure_tutorial_description/scripts/setup_husky_ur5_e_1
+roslaunch husky_viz view_model.launch
+source src/husky_ure_tutorial_files/husky_ure_tutorial_description/scripts/setup_husky_ur5_e_2
