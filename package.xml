@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ur_tutorials</name>
+  <version>0.0.0</version>
+  <description>The ur_tutorials package</description>
+
+  <maintainer email="dniewinski@clearpathrobotics.com">Dave Niewinski</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rosdoc_lite</build_depend>
+
+  <export>
+  </export>
+</package>

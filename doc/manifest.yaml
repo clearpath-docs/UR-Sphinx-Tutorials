@@ -1,0 +1,15 @@
+actions: []
+authors: Dave Niewinski <dniewinski@clearpathrobotics.com>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- rosdoc_lite
+description: UR setup tutorials
+license: BSD
+maintainers: Dave Niewinski <dniewinski@clearpathrobotics.com>
+msgs: []
+package_type: package
+repo_url: ''
+srvs: []
+url: ''
