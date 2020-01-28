@@ -10,7 +10,7 @@ To connect to the arm so it can be controlled from ROS, we will be using the `ur
 
     sudo apt-get install ros-kinetic-ur-modern-driver
 
-This driver has only been officially released for Indigo (at time of writing) so if the command above fails, you will need to download and build this from source.  You can download the `source code <https://github.com/ros-industrial/ur_modern_driver>`_ and `build the package <http://wiki.ros.org/ROS/Tutorials/BuildingPackages>`_ from source locally.
+This driver has only been officially released for Kinetic (at time of writing) so if the command above fails, you will need to download and build this from source.  You can download the `source code <https://github.com/ros-industrial/ur_modern_driver>`_ and `build the package <http://wiki.ros.org/ROS/Tutorials/BuildingPackages>`_ from source locally.
 To launch the driver, run the command below.  You will replace <ur_ip_address> with the address you set in the networking setup of your arm.
 
 .. code-block:: bash
