@@ -67,3 +67,12 @@ Once you change the controller to remote control, it will lock-out a number of f
     :alt: Select Remote Control
 
 Once this is all done, it should be setup!  Restart the controller and come back to the networking menu to verify that the settings were applied.  Make sure that the controller is connected to a network (or the ROS computer) before starting the controller.  The UR controller may not bring up its networking if it is not connected to another device.  When the controller starts up again, make sure to re Initialize the arm to enable control and movement and select Remote Control from the top-right button.
+
+Install custom URCap
+---------------------
+
+To control the arm from an external computer with ROS you must install the External Control URCap program.
+
+Instructions for installing the External Control program can be found on the `Universal Robots ROS Driver <https://github.com/UniversalRobots/Universal_Robots_ROS_Driver/blob/master/ur_robot_driver/doc/install_urcap_e_series.md>`_ documentation.
+
+Once the External Control program has been installed and configured to allow control from your ROS PC, you will be able to :doc:`configure the ROS driver <ros>` and control the arm.
